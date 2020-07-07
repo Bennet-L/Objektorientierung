@@ -1,0 +1,17 @@
+class Essen{
+  String herkunftsland;
+  String kalorien;
+  
+  void zeigeWertean(){
+    print (this.herkunftsland);
+    print (this.kalorien);
+    
+  }
+}
+
+main(){
+  Essen pizza = Essen();
+  pizza.herkunftsland = "Italien";
+  pizza.kalorien = "Sehr viele";
+  pizza.zeigeWertean();
+}
